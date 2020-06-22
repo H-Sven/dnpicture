@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "home-album": "/pages/home/home-album/index",
+    "home-category": "/pages/home/home-category/index",
+    "home-new": "/pages/home/home-new/index",
+    "home-recommend": "/pages/home/home-recommend/index"
+  }
+}

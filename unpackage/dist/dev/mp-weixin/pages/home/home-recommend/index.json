@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "img-detail": "/components/img-detail/img-detail",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  },
+  "component": true
+}

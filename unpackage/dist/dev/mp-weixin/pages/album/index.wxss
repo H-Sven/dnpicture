@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.u-load-more-wrap.data-v-181395d4 {
+  padding: 10px 0;
+}
+.top_img.data-v-181395d4 {
+  width: 100%;
+  position: relative;
+}
+.top_img .img.data-v-181395d4 {
+  width: 100%;
+}
+.top_img .name.data-v-181395d4 {
+  position: absolute;
+  color: #fff;
+  font-size: 26rpx;
+  bottom: 15px;
+  left: 10px;
+}
+.desc_info.data-v-181395d4 {
+  padding: 20rpx;
+}
+.desc_info .avatar_name.data-v-181395d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.desc_info .avatar_name .name.data-v-181395d4 {
+  margin-left: 10rpx;
+}
+.desc_info .desc.data-v-181395d4 {
+  color: #666;
+  font-size: 26rpx;
+  padding-top: 20rpx;
+}
+.wallpaper_wrap.data-v-181395d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+}
+.wallpaper_wrap .wallpaper_item.data-v-181395d4 {
+  width: 33.33%;
+  border: 3rpx solid #fff;
+}
+

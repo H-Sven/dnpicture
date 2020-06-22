@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.u-load-more-wrap.data-v-6ea5e7a3 {
+  padding: 10px 0;
+}
+.recommend_view.data-v-6ea5e7a3 {
+  height: calc(100vh - 36px);
+}
+.recommend_warp.data-v-6ea5e7a3 {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.recommend_warp .recommend_item.data-v-6ea5e7a3 {
+  width: 50%;
+  height: 100px;
+}
+.recommend_warp .recommend_item .item_image.data-v-6ea5e7a3 {
+  width: 100%;
+  height: 100%;
+}
+.title.data-v-6ea5e7a3 {
+  height: 35px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 10px;
+}
+.month_warp.data-v-6ea5e7a3, .hot_warp.data-v-6ea5e7a3 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.month_warp .month_item.data-v-6ea5e7a3, .hot_warp .month_item.data-v-6ea5e7a3, .hot_warp .hot_item.data-v-6ea5e7a3 {
+  width: 33.33%;
+}
+.month_warp .month_item .item_image.data-v-6ea5e7a3, .hot_warp .month_item .item_image.data-v-6ea5e7a3, .hot_warp .hot_item .item_image.data-v-6ea5e7a3 {
+  width: 100%;
+  height: 160px;
+}
+
