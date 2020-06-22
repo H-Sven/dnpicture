@@ -18,6 +18,23 @@
 				<text>收藏</text>
 			</view>
 		</view>
+		<!-- 相关 -->
+		<view v-if="album.length" class="album_wrap">
+			<view class="album_title">相关</view>
+			<view class="album_list">
+				<view v-for="(item, index) in album" :key="index" class="album_item">
+					<image :src="item.cover" class="img_cover"></image>
+					<view class="item_info">
+						<view class="tag">专辑</view>
+						<view class="name">{{ item.name }}</view>
+					</view>
+					<view class="more">
+						<u-icon name="arrow-right"></u-icon>
+					</view>
+				</view>
+			</view>
+		</view>
+		<!-- 最热评论 -->
 	</view>
 </template>
 
@@ -82,6 +99,43 @@
 	.collect {
 		display: flex;
 		align-items: center;
+	}
+}
+.album_wrap {
+	padding: 30rpx;
+	border-bottom: 1px solid #999;
+	.album_title {
+		padding: 10rpx 0;
+	}
+	.album_item {
+		display: flex;
+		padding: 10rpx 0;
+		.img_cover {
+			flex: 1;
+			width: 100rpx;
+			height: 100rpx;
+		}
+		.item_info {
+			flex: 3;
+			padding-left: 20rpx;
+			.tag {
+				width: 90rpx;
+				height: 40rpx;
+				background-color: #DD6161;
+				color: #fff;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.name {
+				color: #888;
+				padding: 10rpx 0;
+			}
+		}
+		.more {
+			display: flex;
+			align-items: center;
+		}
 	}
 }
 </style>

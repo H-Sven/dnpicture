@@ -8664,8 +8664,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   } };exports.default = _default;
 
 /***/ }),
-/* 26 */,
-/* 27 */
+/* 26 */
 /*!***************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/index.js ***!
   \***************************************************************/
@@ -8674,13 +8673,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 28));
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 27));
 
-var _mpShare = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mpShare.js */ 29));
+var _mpShare = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mpShare.js */ 28));
 
-var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 30));
-
-
+var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 29));
 
 
 
@@ -8699,42 +8696,44 @@ var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 
 
 
 
-var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 34));
-
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 35));
-
-var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 36));
-
-var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 37));
-
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 38));
-
-var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 39));
-
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 40));
-
-var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 41));
-
-var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 42));
-
-var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 32));
-
-var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 31));
 
 
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 33));
+var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 33));
 
-var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 43));
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 34));
 
-var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 44));
+var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 35));
 
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 45));
+var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 36));
+
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 37));
+
+var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 38));
+
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 39));
+
+var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 40));
+
+var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 41));
+
+var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 31));
+
+var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 30));
+
+
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 32));
+
+var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 42));
+
+var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 43));
+
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 44));
 
 
 
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 46));
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 45));
 
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 47));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 46));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
 // 引入关于是否mixin集成小程序分享的配置
 // 全局挂载引入http相关请求拦截插件
 function wranning(str) {// 开发环境进行信息输出,主要是一些报错信息
@@ -8790,7 +8789,7 @@ var install = function install(Vue) {
   install: install };exports.default = _default;
 
 /***/ }),
-/* 28 */
+/* 27 */
 /*!**************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/mixin/mixin.js ***!
   \**************************************************************************/
@@ -8829,7 +8828,7 @@ var install = function install(Vue) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 29 */
+/* 28 */
 /*!****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/mixin/mpShare.js ***!
   \****************************************************************************/
@@ -8850,7 +8849,7 @@ module.exports = {
   } };
 
 /***/ }),
-/* 30 */
+/* 29 */
 /*!****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/request/index.js ***!
   \****************************************************************************/
@@ -8858,8 +8857,8 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 31));
-var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 33));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 30));
+var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 32));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
 Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
     // 设置全局默认配置
     value: function setConfig(customConfig) {
@@ -9026,7 +9025,7 @@ new Request();exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 31 */
+/* 30 */
 /*!*********************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/deepMerge.js ***!
   \*********************************************************************************/
@@ -9034,7 +9033,7 @@ new Request();exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 32));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 31));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 // JS对象深度合并
 function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -9066,7 +9065,7 @@ function deepMerge() {var target = arguments.length > 0 && arguments[0] !== unde
 deepMerge;exports.default = _default;
 
 /***/ }),
-/* 32 */
+/* 31 */
 /*!*********************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/deepClone.js ***!
   \*********************************************************************************/
@@ -9105,7 +9104,7 @@ function deepClone() {var object = arguments.length > 0 && arguments[0] !== unde
 deepClone;exports.default = _default;
 
 /***/ }),
-/* 33 */
+/* 32 */
 /*!****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/test.js ***!
   \****************************************************************************/
@@ -9289,7 +9288,7 @@ function empty(value) {
   isEmpty: empty };exports.default = _default;
 
 /***/ }),
-/* 34 */
+/* 33 */
 /*!***********************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/queryParams.js ***!
   \***********************************************************************************/
@@ -9357,7 +9356,7 @@ function queryParams() {var data = arguments.length > 0 && arguments[0] !== unde
 queryParams;exports.default = _default;
 
 /***/ }),
-/* 35 */
+/* 34 */
 /*!*****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/route.js ***!
   \*****************************************************************************/
@@ -9365,7 +9364,7 @@ queryParams;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _queryParams = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/queryParams.js */ 34));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _queryParams = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/queryParams.js */ 33));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 /**
                                                                                                                                                                                                                                                                                             * 路由跳转
                                                                                                                                                                                                                                                                                             * 注意:本方法没有对跳转的回调函数进行封装
@@ -9453,7 +9452,7 @@ route;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 36 */
+/* 35 */
 /*!**********************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/timeFormat.js ***!
   \**********************************************************************************/
@@ -9492,7 +9491,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 timeFormat;exports.default = _default;
 
 /***/ }),
-/* 37 */
+/* 36 */
 /*!********************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/timeFrom.js ***!
   \********************************************************************************/
@@ -9500,7 +9499,7 @@ timeFormat;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 36));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 35));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 /**
                                                                                                                                                                                                                                                                                           * 时间戳转为多久之前
@@ -9548,7 +9547,7 @@ function timeFrom() {var timestamp = arguments.length > 0 && arguments[0] !== un
 timeFrom;exports.default = _default;
 
 /***/ }),
-/* 38 */
+/* 37 */
 /*!*************************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/colorGradient.js ***!
   \*************************************************************************************/
@@ -9657,7 +9656,7 @@ function rgbToHex(rgb) {
   rgbToHex: rgbToHex };exports.default = _default;
 
 /***/ }),
-/* 39 */
+/* 38 */
 /*!****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/guid.js ***!
   \****************************************************************************/
@@ -9708,7 +9707,7 @@ function guid() {var len = arguments.length > 0 && arguments[0] !== undefined ? 
 guid;exports.default = _default;
 
 /***/ }),
-/* 40 */
+/* 39 */
 /*!*****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/color.js ***!
   \*****************************************************************************/
@@ -9753,7 +9752,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 color;exports.default = _default;
 
 /***/ }),
-/* 41 */
+/* 40 */
 /*!*********************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/type2icon.js ***!
   \*********************************************************************************/
@@ -9798,7 +9797,7 @@ function type2icon() {var type = arguments.length > 0 && arguments[0] !== undefi
 type2icon;exports.default = _default;
 
 /***/ }),
-/* 42 */
+/* 41 */
 /*!***********************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/randomArray.js ***!
   \***********************************************************************************/
@@ -9815,7 +9814,7 @@ function randomArray() {var array = arguments.length > 0 && arguments[0] !== und
 randomArray;exports.default = _default;
 
 /***/ }),
-/* 43 */
+/* 42 */
 /*!******************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/random.js ***!
   \******************************************************************************/
@@ -9835,7 +9834,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 random;exports.default = _default;
 
 /***/ }),
-/* 44 */
+/* 43 */
 /*!****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/trim.js ***!
   \****************************************************************************/
@@ -9860,7 +9859,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 trim;exports.default = _default;
 
 /***/ }),
-/* 45 */
+/* 44 */
 /*!*****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/function/toast.js ***!
   \*****************************************************************************/
@@ -9880,7 +9879,7 @@ toast;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 46 */
+/* 45 */
 /*!****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/config/config.js ***!
   \****************************************************************************/
@@ -9896,7 +9895,7 @@ var version = '1.3.4';var _default =
   version: version };exports.default = _default;
 
 /***/ }),
-/* 47 */
+/* 46 */
 /*!****************************************************************************!*\
   !*** C:/Users/win10/Desktop/hdex/dnpicture/uview-ui/libs/config/zIndex.js ***!
   \****************************************************************************/
@@ -9924,6 +9923,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   indexListSticky: 965 };exports.default = _default;
 
 /***/ }),
+/* 47 */,
 /* 48 */,
 /* 49 */,
 /* 50 */,
@@ -9949,17 +9949,26 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 70 */,
 /* 71 */,
 /* 72 */,
-/* 73 */
+/* 73 */,
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */,
+/* 80 */,
+/* 81 */,
+/* 82 */
 /*!*********************************************************************************************!*\
   !*** ./node_modules/@vue/babel-preset-app/node_modules/@babel/runtime/regenerator/index.js ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 74);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 83);
 
 /***/ }),
-/* 74 */
+/* 83 */
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -9990,7 +9999,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 75);
+module.exports = __webpack_require__(/*! ./runtime */ 84);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -10006,7 +10015,7 @@ if (hadRuntime) {
 
 
 /***/ }),
-/* 75 */
+/* 84 */
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
